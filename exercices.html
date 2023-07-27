@@ -6,8 +6,8 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <title>Mon site avec Bootstrap</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen'
-    href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js'></script>
 </head>
 
@@ -99,6 +99,111 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-warning" data-bs-dismiss="modal" id="register-button">Enregistrer</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!----cards---------->
+<div class="container" id="container-card">
+<div class="row my-sm-2 card-body">
+  <div class="col-sm-4 col-md-4 col-xl-4">
+  <div class="card" style="width: 24rem;">
+    <img src="./images/honda.jpeg" class="card-img-top" alt="honda cbr650">
+    <div class="card-body">
+      <h5 class="card-title">Honda CBR 650</h5>
+      <p class="card-text">MOTEUR
+        4 Cylindres en ligne , 4 temps
+        Refroidissement : liquide
+        Injection Ø 32 mm
+        2 ACT
+        4 soupapes par cylindre
+        649 cc (67 x 46 mm) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        95 ch à 12 000 tr/min
+        </p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hondaModal">Voir la moto</a>
+    </div>
+  </div>
+  </div>
+  <div class="col-sm-4 col-md-4 col-xl-4">
+  <div class="card" style="width: 24rem;">
+    <img src="./images/kawasaki.jpeg" class="card-img-top" alt="kawasaki z650">
+    <div class="card-body">
+      <h5 class="card-title">Kawasaki Z 650</h5>
+      <p class="card-text">MOTEUR
+        Bicylindre en ligne , 4 temps
+        Refroidissement : liquide
+        Injection Ø 36 mm
+        2 ACT
+        4 soupapes par cylindre
+        649 cc (83 x 60 mm)
+        68 ch à 8 000 tr/min</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#kawasakiModal">Voir la moto</a>
+    </div>
+  </div>
+</div>
+<div class="col-sm-4 col-md-4 col-xl-4">
+  <div class="card" style="width: 24rem;">
+    <img src="./images/yamaha.jpeg" class="card-img-top" alt="yamaha r6">
+    <div class="card-body">
+      <h5 class="card-title">Yamaha R6</h5>
+      <p class="card-text">MOTEUR
+        4 Cylindres en ligne , 4 temps
+        Refroidissement : liquide
+        injection
+        2 ACT
+        4 soupapes par cylindre
+        599 cc (67 x 42,5 mm)
+        118,40 ch à 14 500 tr/min</p>
+      <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#yamahaModal">Voir la moto</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="modal fade" id="hondaModal" tabindex="-1" aria-labelledby="hondaModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="hondaModalLabel">Honda 650 CBR</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/honda.jpeg" class="img-fluid" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="kawasakiModal" tabindex="-1" aria-labelledby="kawasakiModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="kawasakiModalLabel">Honda 650 CBR</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/kawasaki.jpeg" class="img-fluid" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="yamahaModal" tabindex="-1" aria-labelledby="yamahaModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="yamahaModalLabel">Honda 650 CBR</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./images/yamaha.jpeg" class="img-fluid" alt="...">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
