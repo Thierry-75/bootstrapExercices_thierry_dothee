@@ -1,3 +1,5 @@
 # bootstrap_modal_caroussel
-
-modal et caroussel bootstrap
+- [x] modal contact
+- [ ] modal connection
+- [ ] caroussel
+- [ ] js et responsive via npm nodejs
